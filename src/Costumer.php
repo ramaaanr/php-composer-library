@@ -4,7 +4,7 @@ namespace ProgrammerZamanNow\Belajar;
 
 class Costumer
 {
-    public function __construct(private string $name)
+    public function __construct(private string $name = "Guest")
     {
     }
 
